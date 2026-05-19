@@ -2472,7 +2472,8 @@ body.noScroll{ overflow:hidden; }
   }
 
   .drawerShopLabel__brand,
-  .drawerShopLabel__shop{
+  .drawerShopLabel__shop,
+  .drawerShopLabel__storeName{
     display:block;
   }
 
@@ -2485,7 +2486,8 @@ body.noScroll{ overflow:hidden; }
     line-height:1.45;
   }
 
-  .drawerShopLabel__shop{
+  .drawerShopLabel__shop,
+  .drawerShopLabel__storeName{
     font-size:12px;
     font-weight:400;
     line-height:1.45;
