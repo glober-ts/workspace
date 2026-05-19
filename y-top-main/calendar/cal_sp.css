@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+span.Today {
+	cursor: pointer;
+	font-weight: bolder;
+	display: block;
+	background-color: #FFFFFF;
+}
+
+.deli {
+	background-color: #009900;
+	color: #FFFFFF;
+}
+
+li.openingsale {
+	color: #FFFFFF;
+	font-weight: bolder;
+	background-color: #FF0000;
+}
+
+li.holyday {
+	color: #FF0000;
+}
+
+li.Sun {
+	color: #FF0000;
+}
+
+li.Sat {
+	color: #FF0000;
+}
+
+li.undefined {
+	cursor: pointer;
+}
+
+/* ui */
+div.cal_wrapper {
+	padding: 0;
+	width: 100% !important;
+	height: auto !important;
+	background-image: url(background.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-color: #EEEEEE;
+	position: relative;
+	margin-bottom: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+ul.cal_ui {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: auto;
+	float: none;
+	z-index: 2;
+}
+
+ul.cal_ui li {
+	float: left;
+	width: 20px;
+	height: 15px;
+	font-size: 10px;
+	list-style: none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+li.cal_prev {
+	background-image: url(cal_01.gif);
+}
+
+li.cal_to {
+	background-image: url(cal_02.gif);
+}
+
+li.cal_next {
+	background-image: url(cal_03.gif);
+}
+
+div.cal_base {
+	overflow: hidden;
+}
+
+div.cal_base p {
+	font-size: 12px;
+	padding: 5px 70px 5px 5px;
+	margin: 0;
+	border-bottom: solid 1px #CCCCCC;
+	box-sizing: border-box;
+}
+
+ul.cal_main {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+ul.cal_main::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul.cal_main li {
+	width: calc(100% / 7);
+	text-align: center;
+	list-style: none;
+	font-size: 13px;
+	float: left;
+	overflow: hidden;
+	border-bottom: solid 1px #CCCCCC;
+	box-sizing: border-box;
+	background-color: transparent;
+}
+
+ul.cal_main li span {
+	padding: 3px;
+	display: block;
+}
+
+li.cal_headline {
+	background-color: transparent;
+}
