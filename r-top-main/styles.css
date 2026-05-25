@@ -4528,6 +4528,7 @@ body.noScroll{ overflow:hidden; }
   display:flex;
   flex-wrap:wrap;
   gap:10px;
+    justify-content: center;
 }
 
 .popupModal__button{
