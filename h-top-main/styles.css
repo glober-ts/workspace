@@ -354,6 +354,7 @@ img{display:block;max-width:100%}
 
 .topBannerBlock--guidebook{
   padding:30px 0 26px;
+  margin-bottom: 50px;
 }
 
 .topBannerBlock__link,
@@ -1208,8 +1209,8 @@ section[id^="pickup"]{
 
 /* Closeup: categorySection only */
 .categorySection--closeup .closeupGrid{
-  grid-template-columns:repeat(5,minmax(0,1fr));
-  gap:12px;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:50px;
   justify-content:center;
   margin-inline:auto;
       margin-bottom: 30px;
